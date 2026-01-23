@@ -93,6 +93,6 @@ score = runQuiz(score)
 print()
 print(f"You scored {score} out of {len(questionList)}")
 if score < 10:
-    print("Better luck next time, nerd!")
+    print("Better luck next time!")
 else:
-    print("GG")
+    print("Well played!")
